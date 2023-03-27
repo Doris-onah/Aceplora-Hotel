@@ -1,0 +1,173 @@
+.room-container {
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./Assets/Mask\ Group\ \(2\).png)
+
+}
+
+
+header {
+    width: 100%;
+    height: 90px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "Sorts Mill Goudy";
+
+}
+nav {
+    width: 70%;
+    height: 100%;
+    color: #ffffff;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ 
+}   
+nav ul {
+    list-style-type: none;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    padding: 0 40px;
+ 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* hero section '''''''''''''''''''''''''''''''''''''''''''*/
+section {
+    width: 100%;
+    height:800px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  
+    flex-direction: column;
+   
+}
+ .welcome-page {
+    width: 85%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: normal;
+    border: none;
+  font-family:"Bowlby One SC" ;
+}
+
+.luxury {
+    font-size: 130px;
+    font-weight: bold;
+    /* font-family: "Teko"; */
+    font-weight: "400";
+    font-family: "Bowlby One SC";
+}
+.hotel-font {
+    font-size: 55px;
+  letter-spacing: 9px;
+}
+.welcome {
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+.book {
+    font-size: 25px; 
+
+}
+.scroll {
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.scroll h6 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.btn-container {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+ .button {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#E0B973 ;
+    border: none;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150x;
+    font-size: 15px;
+    color: white;
+    background-color: #14274A;
+    
+}
+.box3 div {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+   
+}
+
+
+.box4 span {
+    display: flex;
+    padding: 0;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #E0B973;
+    /* padding: 0 10px; */
+    background-color:#14274A ;
+}
+.footer-btn {
+width: 50px;
+height: 39px;
+background-color: #fae091;
+color: black;
+}

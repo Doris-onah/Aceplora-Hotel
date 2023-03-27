@@ -1,0 +1,324 @@
+.facilities{
+    width: 100%;
+    height: 100%;
+    font-family: "Sorts Mill Goudy";
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+.facilities-page {
+    width: 100%;
+    height: 920px;
+    background-color: #14274A;
+    font-family: "Sorts Mill Goudy";
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(rgba(31, 34, 69, 0.5),rgba(0,0,0,0.5)),
+     url(./Assets/Mask\ Group\ \(1\).png);
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "Sorts Mill Goudy";
+
+}
+nav {
+    width: 70%;
+    height: 100%;
+    color: #ffffff;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ 
+}   
+nav ul {
+    list-style-type: none;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    padding: 0 40px;
+ 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-container {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#E0B973 ;
+    border: none;
+}
+.scroll {
+    width: 100%;
+    height: 160px;
+    flex-direction: column;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+h6 {
+    margin: 0;
+}
+section {
+    width: 100%;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+ .welcome-page {
+    width: 85%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: normal;
+    border: none;
+  font-family:"Bowlby One SC" ;
+}
+
+.luxury {
+    font-size: 130px;
+    font-weight: bold;
+    /* font-family: "Teko"; */
+    font-weight: "400";
+    font-family: "Bowlby One SC";
+}
+.hotel-font {
+    font-size: 55px;
+  letter-spacing: 9px;
+}
+/* facilities content */
+.facilities-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Sorts Mill Goudy";
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    font-weight: 400;
+   
+}
+.facilities-display {
+    width: 80%;
+    height: 100%;
+    color: #14274A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Sorts Mill Goudy";  
+    text-indent: 20px; 
+    text-align: center;
+    font-size: 25px;
+}
+.btn {
+    width: 300px;
+    font-size: 20px;
+    color: black;
+    height: 55px;
+    background-color: white;
+    border: none;
+
+}
+
+.facilities-img {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+   padding: 30px 0;
+}
+.gym {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(53, 52, 52, 0.5),rgba(34, 34, 34, 0.5)),
+    url(./Assets/humphrey-muleba-LOA2mTj1vhc-unsplash\ 1.png);
+ 
+}
+
+
+.pool {
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./Assets/1%20International%20Poolside%20Bars\ 1.png);
+}
+
+.spa {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./Assets/adetayo-adefala-1K2iQQM31D0-unsplash\ 1.png);
+}
+
+
+.swimming {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./Assets/big-tiny-belly-XtnNrQYC7ts-unsplash\ 1.png);
+}
+.restuarant {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./Assets/jason-leung-poI7DelFiVA-unsplash\ 1.png);
+}
+.laundry {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./Assets/bianca-jordan-o7SvheEZoks-unsplash\ 1.png);
+}
+
+
+
+/* testimonial section */
+#testimonial {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 0;
+    font-size: 15px;
+    color: #14274A;
+}
+#testimonial h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#testimonial p {
+    font-size: 25px;
+   
+}
+#testimonial h6 {
+    margin: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/* footer section  */
+.angle {
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 50px solid #14274A;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150x;
+    font-size: 15px;
+    color: white;
+    background-color: #14274A;
+    
+}
+.box3 div {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+   
+}
+
+.box4 span {
+    display: flex;
+    padding: 0;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #E0B973;
+    /* padding: 0 10px; */
+    background-color:#14274A ;
+}
+.footer-btn {
+width: 50px;
+height: 39px;
+background-color: #fae091;
+color: black;
+}

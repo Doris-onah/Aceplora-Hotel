@@ -1,0 +1,290 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri&family=Arima:wght@700&family=Bebas+Neue&family=Big+Shoulders+Display&family=Bree+Serif&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Epilogue:wght@500;700&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Macondo&family=Manrope:wght@500&family=Montserrat:wght@900&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;600&family=Righteous&family=Roboto:wght@700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri&family=Arima:wght@700&family=Bebas+Neue&family=Big+Shoulders+Display&family=Bree+Serif&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Epilogue:wght@500;700&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Macondo&family=Manrope:wght@500&family=Montserrat:wght@900&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;600&family=Righteous&family=Roboto:wght@700&display=swap');
+
+#homepage {
+    background-color: #bfb7b7;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    height: 940px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+background: linear-gradient(rgba(31, 34, 69, 0.5),rgba(0,0,0,0.5)), 
+url(./Assets/Mask\ Group.png);
+    
+}
+header {
+    width: 100%;
+    height: 90px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "Sorts Mill Goudy";
+
+}
+nav {
+    width: 70%;
+    height: 100%;
+    color: #ffffff;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ 
+}   
+nav ul {
+    list-style-type: none;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    padding: 0 40px;
+ 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+section {
+    width: 100%;
+    height:800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    flex-direction: column;
+   
+}
+ .welcome-page {
+    width: 85%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    line-height: normal;
+    border: none;
+  font-family:"Bowlby One SC" ;
+}
+
+.luxury {
+    font-size: 130px;
+    font-weight: bold;
+    /* font-family: "Teko"; */
+    font-weight: "400";
+    font-family: "Bowlby One SC";
+}
+.hotel-font {
+    font-size: 55px;
+  letter-spacing: 9px;
+}
+.welcome {
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+.book {
+    font-size: 25px; 
+
+}
+.scroll {
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.scroll h6 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.btn-container {
+    width: 180px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+ .button {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#E0B973 ;
+    border: none;
+}
+
+/* room sexcction */
+.room-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #14274A;
+}
+.room-container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.room-set1 , .room-set2 {
+    width: 95%;
+    height: 480px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.room-set1 h1 , .room-set2 h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;   
+}
+.room-set1 p , .room-set2 p {
+    font-size: 25px;
+    margin: o;
+}
+.room1 , .room2  {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    gap: 50px;
+}
+.room1-text , .room2-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+
+}
+.room1-text button ,
+.room2-text button {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    background-color:#E0B973;
+}
+.room-set1 hr  {
+    border-left: 3px solid rgb(180, 179, 179);
+  height: 250px;
+  align-items: center;
+ 
+}
+.room-set2 hr {
+    border-left: 3px solid rgb(179, 178, 178);
+    height: 290px;
+}
+
+
+/*testimonials section */
+#testimonial {
+    width: 100%;
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    line-height: 0;
+    font-size: 15px;
+    color: #14274A;
+}
+#testimonial h1 {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+#testimonial p {
+    font-size: 25px;
+   
+}
+#testimonial h6 {
+    margin: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.angle {
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-bottom: 50px solid #14274A;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150x;
+    font-size: 15px;
+    color: white;
+    background-color: #14274A;
+    
+}
+.box3 div {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+   
+}
+
+
+.box4 span {
+    display: flex;
+    padding: 0;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #E0B973;
+    /* padding: 0 10px; */
+    background-color:#14274A ;
+}
+.footer-btn {
+width: 50px;
+height: 39px;
+background-color: #fae091;
+color: black;
+}

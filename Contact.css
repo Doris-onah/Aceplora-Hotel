@@ -1,0 +1,93 @@
+#contact-page {
+    width: 100%;
+    height: 100%;
+align-items: centerd;
+}
+.contact-us {
+    width: 100%;
+ height: 200px;
+    background-color: #14274A;
+    font-family: "Sorts Mill Goudy";
+ 
+}
+header {
+    width: 100%;
+    height: 90px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  font-family: "Sorts Mill Goudy";
+
+}
+nav {
+    width: 70%;
+    height: 100%;
+    color: #ffffff;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ 
+}   
+nav ul {
+    list-style-type: none;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+    padding: 0 40px;
+ 
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/* footer section */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150x;
+    font-size: 15px;
+    color: white;
+    background-color: #14274A;
+    
+}
+.box3 div {
+    width: 100px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+   
+}
+
+
+.box4 span {
+    display: flex;
+    padding: 0;
+}
+input {
+    width: 200px;
+    height: 30px;
+    border: 2px solid #E0B973;
+    /* padding: 0 10px; */
+    background-color:#14274A ;
+}
+.footer-btn {
+width: 50px;
+height: 39px;
+background-color: #fae091;
+color: black;
+}
