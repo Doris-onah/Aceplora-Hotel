@@ -2,19 +2,21 @@
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri&family=Arima:wght@700&family=Bebas+Neue&family=Big+Shoulders+Display&family=Bree+Serif&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Epilogue:wght@500;700&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Macondo&family=Manrope:wght@500&family=Montserrat:wght@900&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;600&family=Righteous&family=Roboto:wght@700&display=swap');
   
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Amiri&family=Arima:wght@700&family=Bebas+Neue&family=Big+Shoulders+Display&family=Bree+Serif&family=Cinzel&family=Edu+NSW+ACT+Foundation:wght@600;700&family=Epilogue:wght@500;700&family=Fugaz+One&family=Grape+Nuts&family=Inter:wght@300;700&family=Josefin+Sans:wght@300;400;600&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Kumar+One+Outline&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Licorice&family=Lobster&family=Lobster+Two:wght@700&family=Macondo&family=Manrope:wght@500&family=Montserrat:wght@900&family=Mouse+Memoirs&family=Oleo+Script+Swash+Caps&family=Open+Sans&family=Oswald&family=Outfit:wght@300;400;600&family=Overpass&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@1,700&family=Poppins:wght@400;600&family=Righteous&family=Roboto:wght@700&display=swap');
-
-#homepage {
-    background-color: #bfb7b7;
-    color: #ffffff;
-    font-family: "Arial", sans-serif;
-    font-size: 12px;
-    margin: 0;
-    padding: 0;
-    height: 940px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#home-container {
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+flex-wrap: wrap;
+}
+#homepage {
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: center;
+    background-position: center;
 background: linear-gradient(rgba(31, 34, 69, 0.5),rgba(0,0,0,0.5)), 
 url(./Assets/Mask\ Group.png);
     
@@ -63,15 +65,16 @@ section {
     width: 100%;
     height:800px;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
     flex-direction: column;
    
 }
  .welcome-page {
     width: 85%;
     height: 600px;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -141,6 +144,7 @@ section {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -150,14 +154,21 @@ section {
     width: 85%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+.room1-img ,
+.room2-img {
+    width: 800px;
+    height: 500px;
+}
 .room-set1 , .room-set2 {
     width: 95%;
-    height: 480px;
+    height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -183,6 +194,7 @@ section {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
     border-radius: 5px;
@@ -193,6 +205,7 @@ section {
     width: 150px;
     height: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-size: 15px;
@@ -219,6 +232,7 @@ section {
     width: 100%;
     height: 290px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
